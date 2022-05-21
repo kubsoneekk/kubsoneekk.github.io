@@ -70,7 +70,7 @@ nav a {
     height: 220px;
     background-color: rgb(92, 92, 92);
     border-radius: 20px;
-    display:inline-block;
+    display: inline-block;
     transition: all 0.5s;
 }
 .square:hover {
