@@ -55,7 +55,7 @@ nav a {
     flex-wrap: wrap;
     justify-content: center;
 }
-.services {
+.technologies {
     margin-top: 100px;
 }
 .line {
@@ -70,28 +70,44 @@ nav a {
     background-color: rgb(92, 92, 92);
     border-radius: 20px;
     display:inline-block;
+    margin: 10px;
     transition: all 0.5s;
 }
 .square:hover {
     border-radius: 30px;
     width: 540px;
     height: 230px;
+    transform: perspective(1500px) rotateY(15deg) rotateX(50deg);
+}
+@keyframes a {
+    0%   {transform: perspective(1500px) rotateY(40deg) rotateX(20deg);}
+    50%  {transform: perspective(1500px) rotateY(0deg) rotateX(20deg) rotateZ(20deg);}
+    100% {transform: perspective(1500px) rotateY(40deg) rotateX(20deg);}
 }
 footer {
     width: 100%;
     bottom: 0;
     font-size: 15px;
 }
+.logo {
+    animation: a 10s infinite;
+    margin: 10px;
+}
 @media screen and (min-width:360px) and (max-width:640px) {
     .square {
-        width: 400px;
-        height: 220px;
-    }
-    .square:hover {
-        width: 440px;
+        width: 300px;
+        height: 240px;
     }
     .btn {
-       
+       margin: 5px;
+       padding: 20px 20px;
+    }
+    .nav {
+        text-align: center;
+    }
+    .square:hover {
+        width: 240px;
+        height: 330px;
     }
 }
 @media (max-width: 360px) {
@@ -101,8 +117,13 @@ footer {
     }
     .btn {
        margin: 5px;
+       padding: 20px 20px;
     }
     .nav {
         text-align: center;
+    }
+    .square:hover {
+        width: 240px;
+        height: 330px;
     }
 }
