@@ -90,6 +90,25 @@ footer {
     bottom: 0;
     font-size: 15px;
 }
+.btnd {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(0, 17, 255);
+    padding: 20px 60px;
+    text-align: center;
+    font-weight: bold;
+    color: white;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+}
+.btnd:hover {
+    border-radius: 10px;
+    box-shadow: 0em 0em  1em rgb(212, 0, 255);
+    background-color: rgb(212, 0, 255);
+    font-size: 16px;
+    transform: perspective(1500px) rotateY(30deg) rotateX(30deg);
+}
 .logo {
     animation: a 6.5s infinite;
     margin: 10px;

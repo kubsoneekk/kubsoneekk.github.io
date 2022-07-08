@@ -1,0 +1,44 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@500&display=swap');
+
+
+body {
+    font-family: 'Montserrat', sans-serif;
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    color: white;
+    background-color: rgb(38, 39, 39);
+    text-align: center;
+    font-size: 25px;
+    background-repeat: no-repeat;
+    background-image: url("https://i.redd.it/mthr3x0q3m091.png");
+    background-size: 100%;
+    text-decoration: none;
+    line-height: 80px;
+}
+.btn {
+    border: none;
+    font-family: 'Montserrat', sans-serif;
+    background-color: rgb(111, 0, 255);
+    padding: 20px 15px;
+    text-align: center;
+    font-weight: bold;
+    color: rgb(255, 255, 255);
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.5s;
+    float: none;
+    width: 100%;
+}
+.btn:hover {
+    border-radius: 10px;
+    box-shadow: 0em 0em  1em rgb(212, 0, 255);
+    background-color: rgb(212, 0, 255);
+    font-size: 16px;
+}
+.top {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+}
